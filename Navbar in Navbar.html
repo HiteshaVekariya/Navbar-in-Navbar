@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> 
+
+
+    body{
+background-image: url("https://picsum.photos/seed/picsum/1600/900");
+height: 100vh;
+
+background-size: cover;
+
+    }
+    
+    .hitesha{
+
+width: 80%;
+height: 100px;
+margin: 0px auto;
+
+
+    }
+
+
+.hitesha ul{
+
+    padding: opx;
+}
+
+
+ .hitesha ul li{
+     float: left;
+     background-color: black;
+     color: white;
+     width: 200px;
+     height: 50px;
+     line-height: 50px;
+     font-size: 25px;
+     text-align: center;
+     list-style: none;
+     opacity: 0.6;
+ }   
+
+  .hitesha ul li ul{
+      display: none;
+  }
+  .hitesha ul li:hover>ul{
+
+      display:block;
+  }
+
+  .hitesha ul li:hover{
+      background-color: #32cd32;
+      opacity: 0.9;
+
+  }
+
+
+  .hitesha ul li ul li{
+      position: relative;
+  }
+ .hitesha ul li ul li ul{
+
+     position: absolute;
+     left: 200px;
+     top: 0px;
+ }
+    
+    
+    </style>
+</head>
+<body>
+    <div class=" hitesha">
+    <ul>
+
+        <li> USA
+            <ul>
+
+                <li> New york</li>
+            </ul>
+        </li>
+        <li> INDIA
+
+            <ul>
+
+                <li>Pune </li>
+              <li> Mumbai</li>
+              <li> Banglore </li>
+               <li> Dehradun</li>
+               <li> Delhi
+               <ul>
+                    <li> Kutubminar</li>
+                    <li>  Red fort</li>
+               </ul>
+               </li>
+            </ul>
+        </li>
+        <li> FRANCE</li>
+        <li> AUSTRALIA</li>
+        
+    </ul>
+    </div>
+</body>
+</html>
